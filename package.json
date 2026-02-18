@@ -8,6 +8,8 @@
     ]
   },
   "scripts": {
+    "build": "yarn next:build",
+    "vercel-build": "yarn next:build",
     "generate": "yarn account:generate",
     "lint-staged": "lint-staged",
     "next:build": "yarn workspace @se-2/nextjs build",
