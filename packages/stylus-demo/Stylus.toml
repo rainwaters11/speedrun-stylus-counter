@@ -1,0 +1,6 @@
+[workspace]
+
+[workspace.networks]
+
+[contract]
+path = "src/lib.rs"
