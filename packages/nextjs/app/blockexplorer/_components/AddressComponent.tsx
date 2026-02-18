@@ -68,7 +68,7 @@ export const AddressComponent = ({
         <div className="space-y-4">
           <div className="flex flex-col gap-2">
             <span className="text-lg font-semibold">Address:</span>
-            <Address address={address} format="long" />
+            <Address address={address as `0x${string}`} format="long" />
           </div>
 
           <div className="flex flex-col gap-2">
